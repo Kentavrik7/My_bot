@@ -1,0 +1,38 @@
+{
+  "chapter_1": {
+    "text": "19:08\nСообщение от незнакомого номера:\n\"Ты уверен, что знаешь, кто она такая?\"",
+    "photo": "https://example.com/images/photo1.jpg",
+    "choices": [
+      {
+        "text": "“Это Луна? Ты кто такой вообще?”",
+        "effects": { "paranoia": 1 },
+        "next": "ending_1"
+      },
+      {
+        "text": "Сохранить фото. Не отвечать.",
+        "effects": { "paranoia": 1, "hotwife": 1 },
+        "next": "ending_2"
+      },
+      {
+        "text": "Удалить и забыть.",
+        "effects": { "neutral": 1 },
+        "next": "ending_3"
+      }
+    ]
+  },
+  "ending_1": {
+    "text": "Финал: Ты пошёл по пути паранойи и запутался.",
+    "photo": "",
+    "choices": []
+  },
+  "ending_2": {
+    "text": "Финал: Ты наблюдал, но не действовал.",
+    "photo": "",
+    "choices": []
+  },
+  "ending_3": {
+    "text": "Финал: Ты отпустил ситуацию и остался в одиночестве.",
+    "photo": "",
+    "choices": []
+  }
+}
